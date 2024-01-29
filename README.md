@@ -25,14 +25,14 @@ Runs all tests headlessly in the terminal(without GUI)<br>
 <i>npx cypress run </i><br>
 
 Run a specific test file<br>
-<i>npx cypress run --spec "cypress/integration/your-test-file.spec.js"</i><br>
+<i>npx cypress run --spec "cypress/e2e/your-test-file.spec.js"</i><br>
 
 Run on a specific browser<br>
 <i>cypress run --browser <browser-name-or-path></i><br>
 By default runs on Electron browser<br>
 
 Run on a specific browser a specific test file<br>
-<i>cypress run --browser <browser-name-or-path> --spec "cypress/integration/your-test-file.spec.js"</i><br>
+<i>cypress run --browser <browser-name-or-path> --spec "cypress/e2e/your-test-file.spec.js"</i><br>
 
 When you run the tests from command line screenshots of the failed tests will be available in the foleder cypress/screenshots<br>
 Video of the entire test would be available in the cypress/videos.
