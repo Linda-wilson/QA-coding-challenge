@@ -1,4 +1,4 @@
-####To install the Cypress project and run tests, follow these steps:
+#### To install the Cypress project and run tests, follow these steps:
 
 ##### Pre requisites
 Node.js and npm:
