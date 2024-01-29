@@ -6,13 +6,14 @@ Cypress is a JavaScript end-to-end testing framework and requires Node.js and np
 
 #### Step1
 Clone the repository : 
-Run the following command : <i> git clone https://github.com/Linda-wilson/QA-coding-challenge.git </i>
+Run the following command 
+( git clone https://github.com/Linda-wilson/QA-coding-challenge.git )
 
 ##### Step2
 Navigate to the Project Directory: <i> cd path/to/your/project </i>
 
 ##### Step3
-    (make sure you are on the master branch and not main)<br>
+ 
  a) Open the Cypress Test Runner with the following command :<i> npx cypress open</i><br>
      This will open the Cypress Test Runner interface<br>
  b) Click on E2E testing<br>
