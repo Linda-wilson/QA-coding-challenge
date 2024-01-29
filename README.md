@@ -6,7 +6,7 @@ Cypress is a JavaScript end-to-end testing framework and requires Node.js and np
 
 #### Step1
 Clone the repository : 
-Run the following command : <i> git clone (repository-url) </i>
+Run the following command : <i> git clone https://github.com/Linda-wilson/QA-coding-challenge.git </i>
 
 ##### Step2
 Navigate to the Project Directory: <i> cd path/to/your/project </i>
