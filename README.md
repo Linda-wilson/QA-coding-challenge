@@ -24,4 +24,4 @@ npx cypress run
 npx cypress run --spec "cypress/integration/your-test-file.spec.js"
 
 When you run the tests from command line screenshots of the failed tests will be available in the foleder cypress/screenshots
-Video of the entire test would be available in the cypress/videos
+Video of the entire test would be available in the folder cypress/videos

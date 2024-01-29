@@ -11,13 +11,13 @@ class joynStreamingPage{
     joyn_footerLinks = '#footer-places li'
     joyn_mobileview = '#footer-places-mobileview > .noprint'
 
-
+    // verify title of joy-streaming page
     joynVerifyTitle(){
 
         cy.title().should('eq',this.joyn_title)
     }
 
-
+    //verify the information on joyn page
     joynVerifyInfo(){
         cy.get(this.joyn_infobox).within(() => {
 

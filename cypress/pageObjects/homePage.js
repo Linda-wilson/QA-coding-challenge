@@ -6,10 +6,6 @@ class homePage{
     homePage_searchbox = '#searchInput';
     homePage_searchButton = '.pure-button';
 
-
-
-    
-
     verifyHomePage(){
 
         //verify title of the homepage
