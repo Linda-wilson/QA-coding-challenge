@@ -12,7 +12,7 @@ Run the following command : <i> git clone (repository-url) </i>
 Navigate to the Project Directory: <i> cd path/to/your/project </i>
 
 ##### Step3
- a) Open the Cypress Test Runner: <i> npx cypress open</i><br>
+ a) Open the Cypress Test Runner with the following command :<i> npx cypress open</i><br>
      This will open the Cypress Test Runner interface<br>
  b) Click on E2E testing<br>
  c) Select the browser and click on start E2E testing<br>
