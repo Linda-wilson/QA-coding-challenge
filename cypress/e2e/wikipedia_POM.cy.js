@@ -25,7 +25,7 @@ describe('Wikipedia Joyn Streaming Platform Information Verification',()=>{
     it('open Wikipedia Homepage',()=>{
         
         //verify whether wikipedia homepage is opened or not
-        home_Page. verifyHomePage()
+        home_Page.verifyHomePage()
         
     })
 

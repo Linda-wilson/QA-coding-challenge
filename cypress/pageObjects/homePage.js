@@ -1,6 +1,5 @@
 class homePage{
 
-
     homepage_logo =".central-textlogo";
     homePage_centalFeatures = '.central-featured';
     homePage_searchbox = '#searchInput';
@@ -26,7 +25,7 @@ class homePage{
 
     //search the text joyn and press enter
     searchText(text){
-        cy.get(this.homePage_searchbox).type(text).type('{enter}')
+        cy.get(this.homePage_searchbox).type(`${text}{enter}`)
     }
 }
 
