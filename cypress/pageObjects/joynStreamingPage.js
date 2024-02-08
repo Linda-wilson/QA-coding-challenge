@@ -13,7 +13,6 @@ class joynStreamingPage{
 
     // verify title of joy-streaming page
     joynVerifyTitle(){
-
         cy.title().should('eq',this.joyn_title)
     }
 
@@ -34,13 +33,11 @@ class joynStreamingPage{
 
     //scroll to the bottom of the page
     joynScrollBottom(){
-
         cy.scrollTo('bottom')
     }
 
     //verify whether the footer links are visible
     joynVerifyFooterLinks(){
-
         cy.get(this.joyn_footerLinks).should('be.visible')
     }
 
