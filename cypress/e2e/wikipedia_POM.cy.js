@@ -15,7 +15,7 @@ describe('Wikipedia Joyn Streaming Platform Information Verification',()=>{
         cy.visit(wikiURL);
     });
 
-
+    //instances of pageObjects
     const home_Page = new homePage()
     const search = new searchPage()
     const joyn_Page = new joynStreamingPage()
