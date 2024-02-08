@@ -23,7 +23,7 @@ class homePage{
         cy.get(this.homePage_searchButton).should('exist')
     }
 
-    //search the text joyn and press enter
+    //Type the text and press enter
     searchText(text){
         cy.get(this.homePage_searchbox).type(`${text}{enter}`)
     }
